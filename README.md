@@ -2,7 +2,7 @@
 Python Application to calculate your monthly expenditure based on back transaction records
 
 
-## Tech Stack
+##Tech Stack
 1. Python
 
 ## How to run
