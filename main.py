@@ -25,7 +25,6 @@ for data in json_str:
     if debit_amount is None:
         debit_amount = 0
     assigned = False
-    #Assign amount
     for key, value in conversion_dict.items():
         if key.lower() in data["Description"].lower():
             amount[value] = amount[value] - debit_amount + credit_amount
